@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a0b8d8), color-stop(#77be48), to(#188d09));
+  background-image: linear-gradient(to right, #a0b8d8, #77be48, #188d09);
+  padding-bottom: 5px;
+  z-index: 999;
+}
+
+.navbar img {
+  position: relative;
+  left: 2%;
+  padding-top: 5px;
+}
+
+.navbar nav {
+  position: relative;
+  left: 80%;
+  padding-top: 10px;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar nav ul li {
+  padding-right: 30px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.filler {
+  padding-top: 10%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container div {
+  margin: 0% 5%;
+  text-align: center;
+}
+
+.container .image {
+  border: 0;
+  border-radius: 10px;
+  width: 300px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.container .image:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+#aboutinfo {
+  margin-left: 3%;
+}
+
+#aboutinfo .sizectrl {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#contactinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2%;
+}
+
+#contactinfo .form-group .form-input {
+  font-size: 25px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a0b8d8), color-stop(#77be48), to(#188d09));
+  background-image: linear-gradient(to right, #a0b8d8, #77be48, #188d09);
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: #188d09;
+  color: white;
+  padding-bottom: 0.1%;
+}
+
+.footer h3 {
+  padding-top: 1%;
+  font-weight: lighter;
+}
+/*# sourceMappingURL=styles.css.map */

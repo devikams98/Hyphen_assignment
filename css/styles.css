@@ -1,0 +1,12 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+   list-style-type: square;
+}
+
+.sizectrl{
+   font-size: 20px;
+   font-weight: lighter;
+}
